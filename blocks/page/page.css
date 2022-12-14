@@ -6,6 +6,7 @@
     font-family: 'Inter', sans-serif;
     color: #FFF;
     text-rendering: optimizeLegibility;
+    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
