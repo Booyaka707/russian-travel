@@ -1,7 +1,6 @@
 .place {
   margin: 0 0 80px 0;
   display: grid;
-  grid-template-columns: minmax(460px, 460px) minmax(456px, 484px);
   grid-gap: 48px 40px;
   grid-template-columns: 460px minmax(min-content,max-content);
 }
@@ -31,6 +30,7 @@
   {
   .place {
     grid-template-columns: 320px;
+    justify-items: center;
   }
   }
 
