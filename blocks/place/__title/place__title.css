@@ -1,17 +1,19 @@
 .place__title {
-  margin: 8px 0 0 0;
+  margin: 0 0 0 0;
   align-self: end;
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
   color: #ffffff;
+
 }
 @media (min-width: 321px) and (max-width: 768px) {
   .place__title {
-    max-width: 95%;
+    display: block;
+    width: 97%;
     margin: 0 0 0 0;
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.1;
   }
 }
 @media (max-width: 320px) {

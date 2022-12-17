@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 0;
   width: calc(100% - 2*148px);
+  display: block;
+  box-sizing: inherit;
 }
 
 @media (max-width: 1024px) {
